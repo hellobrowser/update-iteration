@@ -36,10 +36,10 @@ const run = async () => {
 
     const iteration = iterationType === "last" ? lastIteration : currentIteration;
 
-    if (!iteration) {
-      core.setFailed(`No ${iterationType} iteration found. Check if the iteration exists.`);
-      return;
-    }
+    //if (!iteration) {
+    //  core.setFailed(`No ${iterationType} iteration found. Check if the iteration exists.`);
+    //  return;
+    //}
 
     core.debug(`iteration: ${iteration.title}`);
 
